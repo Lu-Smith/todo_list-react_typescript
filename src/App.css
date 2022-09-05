@@ -23,10 +23,29 @@
   align-items: center;
 }
 
+.App .header .inputs {
+ display: flex;
+ flex-direction: column;
+}
+
 .App .header input {
- width: 200px;
+ width: 300px;
  height: 40px;
  border: none;
  border-top-left-radius: 8px;
  border-bottom-left-radius: 8px;
+ padding: 10px 15px;
+ font-size: 20px;
+ border: 1px solid grey;
 }
+
+.App .header button {
+  width: 100px;
+  height: 80px;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 1px solid grey;
+ }
