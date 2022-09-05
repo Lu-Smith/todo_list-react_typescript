@@ -55,4 +55,5 @@
  .todoList {
   flex: 70%;
   width: 100%;
+  display: flex;
  }

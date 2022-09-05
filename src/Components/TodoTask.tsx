@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import {ITask} from '../interfaces';
 
-const TodoTask = () => {
+interface Props {
+    task: ITask;
+}
+
+const TodoTask = ({task}: Props) => {
   return (
-    <div>TodoTask</div>
+    <div className='task'>
+        <div className='content'>
+            <span>{task.taskName}</span><span>{task.deadline}</span>
+        </div>
+        <button>😄</button>
+    </div>
   )
 }
 
